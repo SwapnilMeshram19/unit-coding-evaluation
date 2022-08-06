@@ -8,4 +8,6 @@ export const Private=({children})=>{
     if(!token){
         return(<Navigate to="/login"/>)
     }
+
+    return children;
 }

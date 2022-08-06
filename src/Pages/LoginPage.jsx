@@ -1,4 +1,4 @@
-import { Label } from "@mui/icons-material";
+
 import { Box, Button, TextField, Typography } from "@mui/material";
 import axios from "axios";
 import React, { useState } from "react";
@@ -37,7 +37,7 @@ export const Login = () => {
   };
 
   if(token){
-    return <Navigate to="/"/>
+    return <Navigate to="/"></Navigate>;
   }
   return (
     <Box

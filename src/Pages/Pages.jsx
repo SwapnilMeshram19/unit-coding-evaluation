@@ -9,7 +9,7 @@ export const Pages=()=>{
 
     return(<div style={{width:"100%"}}>
         <Routes>
-            <Route path="/" element={<Private><Home/></Private>}></Route>
+            <Route path="/" element={<Private><Home/></Private>}/>
             <Route path="/login" element={<Login/>}></Route>
         </Routes>
 
