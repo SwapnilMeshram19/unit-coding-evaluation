@@ -1,12 +1,12 @@
 
-import { Pages } from '@mui/icons-material';
 import './App.css';
 import { Navbar } from './Components/Navbar';
-
+import { Pages } from './Pages/Pages';
 function App() {
   return (
     <div className="App">
-       <Navbar/>
+      <Navbar/>
+      <Pages/>
     </div>
   );
 }
