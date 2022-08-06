@@ -20,7 +20,7 @@ export const loginSuccess=(payload)=>{
     }
 }
 
-export const loginLogout=()=>{
+export const logoutSuccess=()=>{
     return{
         type:LOGOUT_SUCCESS
     }
